@@ -1,0 +1,132 @@
+body {
+    font-family: poppins, poppins;
+    background-color: #f8f9fa;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(62, 99, 172, 0.1);
+    overflow: hidden;
+}
+
+.brand {
+    background: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+.brand h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #333;
+}
+
+.brand p {
+    margin: 5px 0 0;
+    color: #888;
+    font-size: 1em;
+}
+
+.login-box {
+    background: #252A41;
+    color: #fff;
+    padding: 40px;
+    width: 350px;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 0.9em;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.options input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.forgot-password {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.forgot-password:hover {
+    text-decoration: unset;
+}
+
+button {
+    width: 100%;
+    background: #fff;
+    color: #252A41;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: poppins;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+.social-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-login p {
+    font-size: 0.8em;
+}
+
+.social-login a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.social-login .icons {
+    margin-top: 10px;
+}
+
+.social-login .icons a {
+    margin: 0 10px;
+}
+
+.social-login .icons img {
+    width: 24px;
+    height: 24px;
+}
